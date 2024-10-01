@@ -1,0 +1,221 @@
+
+/* Paleta de cores: */
+
+
+/* Cor header e footer: # 171720*/
+/* Cor fundo: #F6F6F9 */
+/* Detalhes escuro: #EF743B */
+/* Detalhes claro: #FBA344 */
+
+
+/* Paleta de cores: */
+
+
+/* cores */
+
+#pagebg{
+    background-color: #F6F6F9;
+}
+
+#bgcolor{
+    background-color: #171723;
+}
+
+/* cores */
+
+
+
+
+
+/* Conteúdo do arquivo fontes.css */
+@font-face {
+    font-family: 'Lato'; /* Dê um nome significativo à sua fonte */
+    src: url('Fonts/Lato/Lato-Black.ttf') format('ttf'); /* Substitua pelo caminho real até o arquivo WOFF */
+    /* Adicione outros formatos se desejar suporte cruzado do navegador */
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Lato', sans-serif; /* Use a fonte em todo o corpo do documento */
+}
+
+/* Conteúdo do arquivo fontes.css */
+
+
+
+
+
+
+
+
+/* Header */
+.divheader {
+    display: flex;
+    align-items: center;
+}
+.divheader img {
+    margin-left: 3vh;
+    margin-right: 2vh; /* Espaçamento entre a imagem e o texto (ajuste conforme necessário) */
+}
+#itensnavbar {
+    margin-top: 8px;
+    margin-left: 4vh;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.navbar-nav .nav-link {
+    margin-right: 5vh; /* Ajuste o espaçamento entre os itens conforme necessário */
+}
+/* Header */
+
+
+
+.h1{
+    font-size: 2009px;
+}
+
+
+
+
+/* Botões */
+
+
+.color-change-button {
+    border: #13131B;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #FBA344; /* Cor inicial */
+    color: #ffffff;
+    transition: background-color 0.4s; /* Adiciona uma transição suave */
+  
+}
+
+.color-change-button:hover {
+    background-color: #FF8C00; /* Cor ao passar o mouse */
+}
+/* Botões */
+
+
+
+/* footer */
+#footer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3 5vh;
+    margin: 0;
+    color: aliceblue;
+    background-color: #171723;
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        margin-left: -7.5%;
+    }
+}
+/* footer */
+
+
+
+/* footer esquerdo */
+.h4footer {
+    margin-top: 20px;
+    margin-left: 1vh;
+}
+.caixadetextofooter {
+    width: 70%;
+    height: auto;
+}
+.textofooter {
+    margin-top: 2vh;
+    width: 70%;
+    text-align: justify;
+    font-size: 15px;
+}
+.container {
+    margin-top: 1vh;
+    margin-left: 7vh;
+    margin: 0 0 0 10vh 0;
+}
+.social-images {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 400000000hv;
+}
+.social-images img {
+    margin: 0 5px;
+    margin-left: 1vh;
+    max-width: 30px; /* Ajuste o tamanho conforme necessário */
+    max-height: 30px;/* Ajuste o tamanho conforme necessário */
+}
+/* footer esquerdo */
+
+
+
+/* footer direito */ 
+.container h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 1vh;
+}
+.contact-section {
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px;
+}
+.contact-item {
+    margin-top: 10px;
+    margin-left: 3vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-item img {
+    
+    max-width: 40px; /* Ajuste o tamanho conforme necessário */
+    max-height: 40px;
+    margin-right: 10px; /* Espaçamento entre imagem e texto */
+}
+.contact-item p {
+    margin: 0; /* Remover a margem padrão do parágrafo */
+    line-height: 30px; /* Ajuste conforme necessário para centralizar verticalmente */
+}
+.localmargin{
+    margin-left: -5px;
+}
+.localmargin2{
+    margin-left: -3px;
+}
+/* footer direito */ 
+
+
+
+/* Respansividade footer */ 
+@media screen and (max-width: 768px) {
+    #footer {
+        flex-direction: column; /* Colocar os itens em coluna em telas menores */
+    }
+    .container {
+        width: 100%; /* Definir a largura para 100% em telas menores */
+        box-sizing: border-box; /* Incluir padding e borda na largura total */
+        padding: 0 10px; /* Adicionar algum espaçamento interno para evitar que o texto toque nas bordas */
+    }
+    .caixadetextofooter {
+        width: 100%; /* Definir a largura para 100% em telas menores */
+    }
+    .contact-section {
+        margin-left: 0; /* Remover margem esquerda para evitar quebrar em telas menores */
+    }
+}
+/* Respansividade footer */ 
