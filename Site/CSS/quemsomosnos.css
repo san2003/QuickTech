@@ -223,12 +223,13 @@
     }
 
   #footer{
-    width:110%;
+    width:94%; 
+    margin-left:3%;
     }
 
   .linha1{
-    width:60%; 
-    margin-left:3%;
+    width:0%; 
+    margin-left:93%;
     }
 
   .linha11{
