@@ -1,0 +1,155 @@
+
+/* Paleta de cores: */
+
+
+/* Cor header e footer: # 171720*/
+/* Cor fundo: #F6F6F9 */
+/* Detalhes escuro: #EF743B */
+/* Detalhes claro: #FBA344 */
+
+
+/* Paleta de cores: */
+*{ font-family: 'Lato', sans-serif;
+}
+
+.pagebg{
+  text-align:center; 
+}
+
+.proposta{
+  width:40%;
+  float:left;
+  margin-left:5%;
+  margin-right:5%;
+
+}
+
+.proposta2{
+  width:40%;
+  float:right;
+  margin-left:5%;
+  margin-right:5%;
+
+}
+
+.proposta3{
+  width:40%;
+  float:left;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:10%;
+}
+
+.proposta4{
+  width:40%;
+  margin-left:5%;
+  margin-right:5%;
+  float:right;
+  margin-bottom:10%;
+  margin-top:9%;
+}
+
+.img2{
+  width:70%;
+  border:solid 2px rgb(0, 0, 0);
+  border-radius:20%;
+  margin-left:12%;
+  
+}
+
+.titulo2{
+  font-size:3vh; 
+ 
+}
+
+#footer{
+  width:100%;
+}
+
+.color-change-button{
+    border: #13131B;
+    padding: 1% 2%;
+    font-size: 2vh;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #FBA344;
+    color: #ffffff;
+    transition:background-color 0.4s;
+    margin-left:43%;
+    margin-right:43%;
+}
+
+.texto4{
+   font-size:2,5vh;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+  .proposta{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+   
+}  
+.proposta2{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:15%;
+}   
+
+.proposta3{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+   
+}   
+.proposta4{
+  width:90%;
+  margin-left:5%;
+  margin-right:5%;
+   
+}   
+
+.pagebg{
+  text-align:center; 
+  margin-left:5%;
+  margin-right:5%;
+  width:90%;
+  justify-content:center;
+  align-items:center;
+
+}
+
+.color-change-button{
+    border: #13131B;
+    padding: 1% 2%;
+    font-size: 2vh;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: #9b7f62;
+    color: #ffffff;
+    transition:background-color 0.4s;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.img2{
+  width:80%;
+  border:solid 2px rgb(0, 0, 0);
+  border-radius:20%;
+  margin-left:10%;
+  
+}
+
+#footer{
+  width:110%;
+}
+}
