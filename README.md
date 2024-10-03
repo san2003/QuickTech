@@ -28,5 +28,5 @@ O projeto Quick Tech foi desenvolvido utilizando as seguintes tecnologias:
 |Vitor Machado|vitorgomes.machado94@gmail.com|https://github.com/VITOR-DV|
 |Fernando Namba|namba.fernando@gmail.com|https://github.com/FernandoNamba|
 |Lucas Eduardo|lelds.2001@gmail.com|https://github.com/lucaseduardo09|
-|Vinícius Stain|Viniisteinn@gmail.com|https://github.com/vnzinn01|
+|Vinícius Stein|Viniisteinn@gmail.com|https://github.com/vnzinn01|
 |Santiago Castrillon|santiagocastrillonprof@gmail.com|https://github.com/san2003|
