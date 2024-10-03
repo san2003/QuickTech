@@ -1,0 +1,154 @@
+
+/* Paleta de cores: */
+
+
+/* Cor header e footer: # 171720*/
+/* Cor fundo: #F6F6F9 */
+/* Detalhes escuro: #EF743B */
+/* Detalhes claro: #FBA344 */
+
+
+/* Paleta de cores: */
+
+hr{
+    color: #868689;
+    margin-top: 0px;
+    margin-left: 20%;
+    width: 60%;
+}
+
+
+
+
+/* centralizando corpo */
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+  }
+
+  .container1 {
+    display: grid;
+    place-items: center;
+    height: 100%;
+  }
+
+  .centralizada {
+    width: 80%;
+    padding: 20px;
+  }
+  @media (max-width: 767px) {
+    .centralizada {
+      width: 100%;
+    }
+  }
+
+/* centralizando corpo */
+
+
+/* sobre nos */
+
+
+#sobrenosid {
+    margin-top: 5vh;
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #sobrenosid {
+        margin-left: 0%;
+    }
+}
+
+.text-container, .image-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#sobrenosid h1 {
+    margin-bottom: 10px;
+}
+
+#sobrenosid p {
+    margin-bottom: 20px;
+}
+
+#sobrenosid img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .text-container, .image-container {
+        flex: 100%;
+    }
+}
+  /* sobre nos */
+
+  /* nossos serviços */
+#nossosservicosid{
+    background-color: #F6F6F9;
+}
+
+  .carousel-image {
+    max-width: 100%;
+    max-height: 99%;
+    margin: auto;
+    display: block;
+    object-fit: contain; /* Controla o tamanho e a posição da imagem */
+  }
+  @media screen and (max-width: 768px) {
+    .carousel-image {
+        border-radius: 0 0 25px 25px;
+    }
+}
+
+
+  #carouselExampleAutoplaying {
+    height: 100%; /* Garante que a altura do carrossel seja 100% da div pai */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens dentro do carrossel */
+  }
+
+.card{
+    margin-top: 10vh;
+    height: 1000px; 
+    margin-left: 7.5%;
+    width: 85%; 
+    border-radius: 25px; 
+    box-shadow: 2.5px 2.5px 4px rgba(0, 0, 0, 0.3); 
+    background-color: #FEFEFF;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin-left: 0%;
+        height: auto; 
+        width: 100%; 
+    }
+}
+
+.card-text{
+    margin-left: 1vh;
+    width: 100%;
+}
+
+
+
+/* nossos serviços */
+
+
+/* peça seu orçamento */
+#orcamento {
+    margin-top: 10vh;
+    text-align: center;
+  }
+/* peça seu orçamento */
